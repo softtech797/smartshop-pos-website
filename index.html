@@ -8,7 +8,32 @@
 <meta name="theme-color" content="#071b3a">
 <title>SmartShop POS | Shop Management Made Simple</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+.guide-links a.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25D366;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 13px;
+  transition: .2s;
+}
+.guide-links a.whatsapp-link:hover {
+  background: #128C7E;
+  transform: translateY(-2px);
+}
+.whatsapp-link svg {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+}
+</style>
 </head>
+
 <body>
 
 <header class="topbar">
@@ -16,7 +41,9 @@
 <span class="brand-mark">🛒</span>
 <span>SmartShop <b>POS</b><small>Shop Management System</small></span>
 </a>
+
 <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
 <nav id="nav">
 <a href="#features">Features</a>
 <a href="#downloads">Downloads</a>
@@ -30,21 +57,46 @@
 
 <section class="hero" id="home">
 <div class="hero-copy">
-<span class="eyebrow" data-en="SMART BUSINESS. SIMPLE MANAGEMENT." data-ur="اسمارٹ کاروبار، آسان انتظام">SMART BUSINESS. SIMPLE MANAGEMENT.</span>
-<h1 data-en="Run your shop with <em>confidence.</em>" data-ur="اپنی دکان کا انتظام کریں <em>اعتماد کے ساتھ۔</em>">Run your shop with <em>confidence.</em></h1>
-<p data-en="SmartShop POS helps you manage sales, products, customers and your team from one simple application." data-ur="اسمارٹ شاپ POS کے ذریعے سیلز، مصنوعات، کسٹمرز اور اپنی ٹیم کا انتظام ایک ہی آسان ایپ سے کریں۔">SmartShop POS helps you manage sales, products, customers and your team from one simple application.</p>
+
+<span class="eyebrow"
+data-en="SMART BUSINESS. SIMPLE MANAGEMENT."
+data-ur="اسمارٹ کاروبار، آسان انتظام">
+SMART BUSINESS. SIMPLE MANAGEMENT.
+</span>
+
+<h1
+data-en="Run your shop with <em>confidence.</em>"
+data-ur="اپنی دکان کا انتظام کریں <em>اعتماد کے ساتھ۔</em>">
+Run your shop with <em>confidence.</em>
+</h1>
+
+<p
+data-en="SmartShop POS helps you manage sales, products, customers and your team from one simple application."
+data-ur="اسمارٹ شاپ POS کے ذریعے سیلز، مصنوعات، کسٹمرز اور اپنی ٹیم کا انتظام ایک ہی آسان ایپ سے کریں۔">
+SmartShop POS helps you manage sales, products, customers and your team from one simple application.
+</p>
+
 <div class="hero-actions">
-<a class="btn primary" href="#downloads" data-en="Download SmartShop" data-ur="اسمارٹ شاپ ڈاؤن لوڈ کریں">Download SmartShop</a>
-<a class="btn secondary" href="#features" data-en="Explore Features" data-ur="خصوصیات دیکھیں">Explore Features</a>
+<a class="btn primary" href="#downloads"
+data-en="Download SmartShop"
+data-ur="اسمارٹ شاپ ڈاؤن لوڈ کریں">Download SmartShop</a>
+
+<a class="btn secondary" href="#features"
+data-en="Explore Features"
+data-ur="خصوصیات دیکھیں">Explore Features</a>
 </div>
+
 <div class="platforms">
-<span>✓ Windows</span><span>✓ Android</span><span>✓ English + اردو guides</span>
+<span>✓ Windows</span>
+<span>✓ Android</span>
+<span>✓ English + اردو guides</span>
 </div>
 </div>
 
 <div class="hero-art">
 <div class="app-window">
 <div class="window-head"><i></i><i></i><i></i><span>SmartShop POS</span></div>
+
 <div class="mock-body">
 <aside>
 <div class="mock-logo">🛒<br>SmartShop</div>
@@ -54,96 +106,241 @@
 <label>♙ &nbsp; Customers</label>
 <label>▥ &nbsp; Reports</label>
 </aside>
+
 <div class="mock-main">
 <div class="mock-welcome">Welcome to your business dashboard</div>
 <div class="mock-banner">✦ &nbsp; License Activated</div>
+
 <div class="mock-stats">
 <div>Products<strong>128</strong></div>
 <div>Customers<strong>64</strong></div>
 <div>Sales Today<strong>Rs. 24,500</strong></div>
 </div>
-<div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+<div class="mock-chart">
+<span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span>
 </div>
 </div>
 </div>
+</div>
+
 <div class="float-tag">Smart Business. Simple Management.</div>
 </div>
 </section>
 
 <section class="trust-strip">
 <span>Designed for everyday shop operations</span>
-<b>Windows Desktop</b><b>Android</b><b>PKR-friendly workflow</b>
+<b>Windows Desktop</b>
+<b>Android</b>
+<b>PKR-friendly workflow</b>
 </section>
 
 <section class="section" id="features">
+
 <div class="section-heading">
 <span class="eyebrow">WHAT YOU CAN DO</span>
-<h2 data-en="Everything your shop needs, in one place." data-ur="آپ کی دکان کی ضروریات، ایک ہی جگہ۔">Everything your shop needs, in one place.</h2>
-<p data-en="A clear, practical workspace for managing daily shop activities." data-ur="روزمرہ دکان کے کاموں کے لیے ایک آسان اور منظم نظام۔">A clear, practical workspace for managing daily shop activities.</p>
+
+<h2 data-en="Everything your shop needs, in one place."
+data-ur="آپ کی دکان کی ضروریات، ایک ہی جگہ۔">
+Everything your shop needs, in one place.
+</h2>
+
+<p data-en="A clear, practical workspace for managing daily shop activities."
+data-ur="روزمرہ دکان کے کاموں کے لیے ایک آسان اور منظم نظام۔">
+A clear, practical workspace for managing daily shop activities.
+</p>
 </div>
 
 <div class="feature-grid">
-<article class="feature"><span>🧾</span><h3 data-en="Sales & Billing" data-ur="سیلز اور بلنگ">Sales & Billing</h3><p data-en="Record sales and manage customer payments." data-ur="سیلز ریکارڈ کریں اور کسٹمر ادائیگیوں کا انتظام کریں۔">Record sales and manage customer payments.</p></article>
-<article class="feature"><span>📦</span><h3 data-en="Products & Stock" data-ur="مصنوعات اور اسٹاک">Products & Stock</h3><p data-en="Organize products and keep track of stock." data-ur="مصنوعات منظم کریں اور اسٹاک کا حساب رکھیں۔">Organize products and keep track of stock.</p></article>
-<article class="feature"><span>👥</span><h3 data-en="Customer Management" data-ur="کسٹمرز کا انتظام">Customer Management</h3><p data-en="Keep customer information together." data-ur="کسٹمرز کی معلومات ایک جگہ محفوظ رکھیں۔">Keep customer information together.</p></article>
-<article class="feature"><span>🧑‍💼</span><h3 data-en="Staff Management" data-ur="ملازمین کا انتظام">Staff Management</h3><p data-en="Manage team access with Owner, Manager and Cashier roles." data-ur="Owner، Manager اور Cashier کے اختیارات کے ذریعے ٹیم کا انتظام کریں۔">Manage team access with Owner, Manager and Cashier roles.</p></article>
-<article class="feature"><span>📊</span><h3 data-en="Reports & History" data-ur="رپورٹس اور ہسٹری">Reports & History</h3><p data-en="Review shop activity and sales records." data-ur="دکان کی سرگرمیوں اور سیلز کا ریکارڈ دیکھیں۔">Review shop activity and sales records.</p></article>
-<article class="feature"><span>☁️</span><h3 data-en="Data Management" data-ur="ڈیٹا مینجمنٹ">Data Management</h3><p data-en="Keep your shop records organized and manage your business data." data-ur="اپنی دکان کا ریکارڈ منظم رکھیں اور کاروباری ڈیٹا کا انتظام کریں۔">Keep your shop records organized and manage your business data.</p></article>
+
+<article class="feature">
+<span>🧾</span>
+<h3 data-en="Sales & Billing" data-ur="سیلز اور بلنگ">Sales & Billing</h3>
+<p data-en="Record sales and manage customer payments."
+data-ur="سیلز ریکارڈ کریں اور کسٹمر ادائیگیوں کا انتظام کریں۔">
+Record sales and manage customer payments.
+</p>
+</article>
+
+<article class="feature">
+<span>📦</span>
+<h3 data-en="Products & Stock" data-ur="مصنوعات اور اسٹاک">Products & Stock</h3>
+<p data-en="Organize products and keep track of stock."
+data-ur="مصنوعات منظم کریں اور اسٹاک کا حساب رکھیں۔">
+Organize products and keep track of stock.
+</p>
+</article>
+
+<article class="feature">
+<span>👥</span>
+<h3 data-en="Customer Management" data-ur="کسٹمرز کا انتظام">Customer Management</h3>
+<p data-en="Keep customer information together."
+data-ur="کسٹمرز کی معلومات ایک جگہ محفوظ رکھیں۔">
+Keep customer information together.
+</p>
+</article>
+
+<article class="feature">
+<span>🧑‍💼</span>
+<h3 data-en="Staff Management" data-ur="ملازمین کا انتظام">Staff Management</h3>
+<p data-en="Manage team access with Owner, Manager and Cashier roles."
+data-ur="Owner، Manager اور Cashier کے اختیارات کے ذریعے ٹیم کا انتظام کریں۔">
+Manage team access with Owner, Manager and Cashier roles.
+</p>
+</article>
+
+<article class="feature">
+<span>📊</span>
+<h3 data-en="Reports & History" data-ur="رپورٹس اور ہسٹری">Reports & History</h3>
+<p data-en="Review shop activity and sales records."
+data-ur="دکان کی سرگرمیوں اور سیلز کا ریکارڈ دیکھیں۔">
+Review shop activity and sales records.
+</p>
+</article>
+
+<article class="feature">
+<span>☁️</span>
+<h3 data-en="Data Management" data-ur="ڈیٹا مینجمنٹ">Data Management</h3>
+<p data-en="Keep your shop records organized and manage your business data."
+data-ur="اپنی دکان کا ریکارڈ منظم رکھیں اور کاروباری ڈیٹا کا انتظام کریں۔">
+Keep your shop records organized and manage your business data.
+</p>
+</article>
+
 </div>
 </section>
 
 <section class="download-section" id="downloads">
+
 <div>
 <span class="eyebrow">GET STARTED</span>
-<h2 data-en="Choose your SmartShop version." data-ur="اپنے لیے اسمارٹ شاپ ورژن منتخب کریں۔">Choose your SmartShop version.</h2>
-<p data-en="Download the installer for your device. Version 1.1.0." data-ur="اپنے ڈیوائس کے لیے انسٹالر ڈاؤن لوڈ کریں۔ ورژن 1.1.0۔">Download the installer for your device. Version 1.1.0.</p>
+
+<h2 data-en="Choose your SmartShop version."
+data-ur="اپنے لیے اسمارٹ شاپ ورژن منتخب کریں۔">
+Choose your SmartShop version.
+</h2>
+
+<p data-en="Download the installer for your device. Version 1.1.0."
+data-ur="اپنے ڈیوائس کے لیے انسٹالر ڈاؤن لوڈ کریں۔ ورژن 1.1.0۔">
+Download the installer for your device. Version 1.1.0.
+</p>
 </div>
 
 <div class="download-cards">
+
 <article class="download-card">
 <div class="device-icon">▦</div>
 <h3>Windows Desktop</h3>
-<p data-en="Install SmartShop POS on your Windows computer." data-ur="اپنے ونڈوز کمپیوٹر پر اسمارٹ شاپ POS انسٹال کریں۔">Install SmartShop POS on your Windows computer.</p>
-<a class="btn primary" href="https://github.com/softtech797/smartshop-pos-website/releases/download/V1.1.0/SmartShop_POS_Setup_1.1.0.exe">Download for Windows</a>
+
+<p data-en="Install SmartShop POS on your Windows computer."
+data-ur="اپنے ونڈوز کمپیوٹر پر اسمارٹ شاپ POS انسٹال کریں۔">
+Install SmartShop POS on your Windows computer.
+</p>
+
+<a class="btn primary"
+href="https://github.com/softtech797/smartshop-pos-website/releases/download/V1.1.0/SmartShop_POS_Setup_1.1.0.exe">
+Download for Windows
+</a>
+
 <small>SmartShop_POS_Setup_1.1.0.exe</small>
 </article>
 
 <article class="download-card">
 <div class="device-icon">▣</div>
 <h3>Android</h3>
-<p data-en="Install the Android APK on your phone." data-ur="اپنے موبائل پر اینڈرائیڈ APK انسٹال کریں۔">Install the Android APK on your phone.</p>
-<a class="btn primary" href="https://github.com/softtech797/smartshop-pos-website/releases/download/V1.1.0/SmartShop_POS_1.1.0.apk">Download for Android</a>
+
+<p data-en="Install the Android APK on your phone."
+data-ur="اپنے موبائل پر اینڈرائیڈ APK انسٹال کریں۔">
+Install the Android APK on your phone.
+</p>
+
+<a class="btn primary"
+href="https://github.com/softtech797/smartshop-pos-website/releases/download/V1.1.0/SmartShop_POS_1.1.0.apk">
+Download for Android
+</a>
+
 <small>SmartShop_POS_1.1.0.apk</small>
 </article>
+
 </div>
-<p class="download-note">Download the latest SmartShop POS 1.1.0 release for your device.</p>
+
+<p class="download-note">
+Download the latest SmartShop POS 1.1.0 release for your device.
+</p>
 </section>
 
 <section class="section getting-started" id="how">
+
 <div class="section-heading">
 <span class="eyebrow">QUICK GUIDE</span>
-<h2 data-en="Get up and running." data-ur="استعمال شروع کرنے کا طریقہ">Get up and running.</h2>
-<p data-en="Start using SmartShop POS in three simple steps." data-ur="تین آسان مراحل میں اسمارٹ شاپ POS استعمال کرنا شروع کریں۔">Start using SmartShop POS in three simple steps.</p>
+
+<h2 data-en="Get up and running."
+data-ur="استعمال شروع کرنے کا طریقہ">
+Get up and running.
+</h2>
+
+<p data-en="Start using SmartShop POS in three simple steps."
+data-ur="تین آسان مراحل میں اسمارٹ شاپ POS استعمال کرنا شروع کریں۔">
+Start using SmartShop POS in three simple steps.
+</p>
 </div>
 
 <div class="steps">
-<div><b>01</b><h3 data-en="Download" data-ur="ڈاؤن لوڈ کریں">Download</h3><p data-en="Choose the Windows or Android version." data-ur="ونڈوز یا اینڈرائیڈ ورژن منتخب کریں۔">Choose the Windows or Android version.</p></div>
-<div><b>02</b><h3 data-en="Install" data-ur="انسٹال کریں">Install</h3><p data-en="Follow the installation instructions for your device." data-ur="اپنے ڈیوائس کے لیے انسٹالیشن کی ہدایات پر عمل کریں۔">Follow the installation instructions for your device.</p></div>
-<div><b>03</b><h3 data-en="Sign in" data-ur="لاگ اِن کریں">Sign in</h3><p data-en="Use your authorized SmartShop account." data-ur="اپنے مجاز اسمارٹ شاپ اکاؤنٹ سے لاگ اِن کریں۔">Use your authorized SmartShop account.</p></div>
+
+<div>
+<b>01</b>
+<h3 data-en="Download" data-ur="ڈاؤن لوڈ کریں">Download</h3>
+<p data-en="Choose the Windows or Android version."
+data-ur="ونڈوز یا اینڈرائیڈ ورژن منتخب کریں۔">
+Choose the Windows or Android version.
+</p>
+</div>
+
+<div>
+<b>02</b>
+<h3 data-en="Install" data-ur="انسٹال کریں">Install</h3>
+<p data-en="Follow the installation instructions for your device."
+data-ur="اپنے ڈیوائس کے لیے انسٹالیشن کی ہدایات پر عمل کریں۔">
+Follow the installation instructions for your device.
+</p>
+</div>
+
+<div>
+<b>03</b>
+<h3 data-en="Sign in" data-ur="لاگ اِن کریں">Sign in</h3>
+<p data-en="Use your authorized SmartShop account."
+data-ur="اپنے مجاز اسمارٹ شاپ اکاؤنٹ سے لاگ اِن کریں۔">
+Use your authorized SmartShop account.
+</p>
+</div>
+
 </div>
 
 <div class="guide-links">
-  <a href="https://wa.me/923249906026?text=I%20need%20help%20installing%20SmartShop%20POS"
-     target="_blank" rel="noopener" class="whatsapp-link">
-    <span class="wa-icon">◉</span>
-    Installation Help
-  </a>
 
-  <a href="https://wa.me/923249906026"
-     target="_blank" rel="noopener" class="whatsapp-link">
-    <span class="wa-icon">◉</span>
-    Contact WhatsApp Support
-  </a>
+<a class="whatsapp-link"
+href="https://wa.me/923249906026?text=I%20need%20help%20installing%20SmartShop%20POS"
+target="_blank" rel="noopener">
+
+<svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+<path d="M16 .5A15.4 15.4 0 0 0 2.7 23.7L.5 31.5l8-2.1A15.5 15.5 0 1 0 16 .5zm0 28.2c-2.4 0-4.7-.7-6.7-2l-.5-.3-4.7 1.2 1.3-4.6-.3-.5a12.8 12.8 0 1 1 10.9 6.2zm7-9.6c-.4-.2-2.3-1.1-2.7-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-2.1-1-3.5-1.9-4.9-4.3-.4-.7.4-.7 1.1-2 .1-.2.1-.5 0-.7-.1-.2-.9-2.1-1.3-2.9-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.3-1.4 3.2s1.4 3.7 1.6 4c.2.3 2.8 4.3 6.8 6 .9.4 1.6.6 2.1.7.9.3 1.7.2 2.4.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+</svg>
+
+Installation Help
+</a>
+
+<a class="whatsapp-link"
+href="https://wa.me/923249906026"
+target="_blank" rel="noopener">
+
+<svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+<path d="M16 .5A15.4 15.4 0 0 0 2.7 23.7L.5 31.5l8-2.1A15.5 15.5 0 1 0 16 .5zm0 28.2c-2.4 0-4.7-.7-6.7-2l-.5-.3-4.7 1.2 1.3-4.6-.3-.5a12.8 12.8 0 1 1 10.9 6.2zm7-9.6c-.4-.2-2.3-1.1-2.7-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-2.1-1-3.5-1.9-4.9-4.3-.4-.7.4-.7 1.1-2 .1-.2.1-.5 0-.7-.1-.2-.9-2.1-1.3-2.9-.3-.8-.7-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.3-1.4 3.2s1.4 3.7 1.6 4c.2.3 2.8 4.3 6.8 6 .9.4 1.6.6 2.1.7.9.3 1.7.2 2.4.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+</svg>
+
+Contact WhatsApp Support
+</a>
+
 </div>
 </section>
 
@@ -152,7 +349,10 @@
 <div>
 <span class="eyebrow">ABOUT THE DEVELOPER</span>
 <h2>Built by Ahmed Habib.</h2>
-<p data-en="SmartShop POS is designed to make everyday shop management more organized and straightforward." data-ur="اسمارٹ شاپ POS روزمرہ دکان کے انتظام کو آسان اور منظم بنانے کے لیے تیار کیا گیا ہے۔">SmartShop POS is designed to make everyday shop management more organized and straightforward.</p>
+<p data-en="SmartShop POS is designed to make everyday shop management more organized and straightforward."
+data-ur="اسمارٹ شاپ POS روزمرہ دکان کے انتظام کو آسان اور منظم بنانے کے لیے تیار کیا گیا ہے۔">
+SmartShop POS is designed to make everyday shop management more organized and straightforward.
+</p>
 </div>
 </section>
 
@@ -163,6 +363,7 @@
 <span class="brand-mark">🛒</span>
 <span>SmartShop <b>POS</b><small>Shop Management System</small></span>
 </a>
+
 <p>© <span id="year"></span> SmartShop POS · Developed by Ahmed Habib</p>
 <a href="#home">Back to top ↑</a>
 </footer>
